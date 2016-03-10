@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="Etudiant" representedClassName="Etudiant" parentEntity="Personne" syncable="YES"/>
+    <entity name="Formateur" representedClassName="Formateur" parentEntity="Personne" syncable="YES"/>
+    <entity name="Intervenant" representedClassName="Intervenant" parentEntity="Personne" syncable="YES"/>
+    <entity name="Personne" representedClassName="Personne" syncable="YES">
+        <attribute name="nom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prenom" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Salle" representedClassName="Salle" syncable="YES">
+        <relationship name="personne" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Personne" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Personne" positionX="-227" positionY="-144" width="128" height="73"/>
+        <element name="Salle" positionX="45" positionY="-157" width="128" height="58"/>
+        <element name="Formateur" positionX="-128" positionY="110" width="128" height="43"/>
+        <element name="Etudiant" positionX="9" positionY="110" width="128" height="43"/>
+        <element name="Intervenant" positionX="-261" positionY="108" width="128" height="43"/>
+    </elements>
 </model>

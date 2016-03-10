@@ -14,6 +14,16 @@
 		77AFB3091C6E0DB100CE6B4C /* Core_Data_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB3071C6E0DB100CE6B4C /* Core_Data_Project.xcdatamodeld */; };
 		77AFB30B1C6E0DB100CE6B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77AFB30A1C6E0DB100CE6B4C /* Assets.xcassets */; };
 		77AFB30E1C6E0DB100CE6B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AFB30C1C6E0DB100CE6B4C /* LaunchScreen.storyboard */; };
+		77AFB3291C6E153C00CE6B4C /* Salle+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB3161C6E153C00CE6B4C /* Salle+CoreDataProperties.m */; };
+		77AFB32A1C6E153C00CE6B4C /* Salle.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB3181C6E153C00CE6B4C /* Salle.m */; };
+		77AFB32B1C6E153C00CE6B4C /* Etudiant+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB31A1C6E153C00CE6B4C /* Etudiant+CoreDataProperties.m */; };
+		77AFB32C1C6E153C00CE6B4C /* Etudiant.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB31C1C6E153C00CE6B4C /* Etudiant.m */; };
+		77AFB32D1C6E153C00CE6B4C /* Personne+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB31E1C6E153C00CE6B4C /* Personne+CoreDataProperties.m */; };
+		77AFB32E1C6E153C00CE6B4C /* Personne.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB3201C6E153C00CE6B4C /* Personne.m */; };
+		77AFB32F1C6E153C00CE6B4C /* Formateur+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB3221C6E153C00CE6B4C /* Formateur+CoreDataProperties.m */; };
+		77AFB3301C6E153C00CE6B4C /* Formateur.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB3241C6E153C00CE6B4C /* Formateur.m */; };
+		77AFB3311C6E153C00CE6B4C /* Intervenant+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB3261C6E153C00CE6B4C /* Intervenant+CoreDataProperties.m */; };
+		77AFB3321C6E153C00CE6B4C /* Intervenant.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB3281C6E153C00CE6B4C /* Intervenant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +38,26 @@
 		77AFB30A1C6E0DB100CE6B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77AFB30D1C6E0DB100CE6B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77AFB30F1C6E0DB100CE6B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77AFB3151C6E153C00CE6B4C /* Salle+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Salle+CoreDataProperties.h"; sourceTree = "<group>"; };
+		77AFB3161C6E153C00CE6B4C /* Salle+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Salle+CoreDataProperties.m"; sourceTree = "<group>"; };
+		77AFB3171C6E153C00CE6B4C /* Salle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Salle.h; sourceTree = "<group>"; };
+		77AFB3181C6E153C00CE6B4C /* Salle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Salle.m; sourceTree = "<group>"; };
+		77AFB3191C6E153C00CE6B4C /* Etudiant+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Etudiant+CoreDataProperties.h"; sourceTree = "<group>"; };
+		77AFB31A1C6E153C00CE6B4C /* Etudiant+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Etudiant+CoreDataProperties.m"; sourceTree = "<group>"; };
+		77AFB31B1C6E153C00CE6B4C /* Etudiant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Etudiant.h; sourceTree = "<group>"; };
+		77AFB31C1C6E153C00CE6B4C /* Etudiant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Etudiant.m; sourceTree = "<group>"; };
+		77AFB31D1C6E153C00CE6B4C /* Personne+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Personne+CoreDataProperties.h"; sourceTree = "<group>"; };
+		77AFB31E1C6E153C00CE6B4C /* Personne+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Personne+CoreDataProperties.m"; sourceTree = "<group>"; };
+		77AFB31F1C6E153C00CE6B4C /* Personne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Personne.h; sourceTree = "<group>"; };
+		77AFB3201C6E153C00CE6B4C /* Personne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Personne.m; sourceTree = "<group>"; };
+		77AFB3211C6E153C00CE6B4C /* Formateur+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Formateur+CoreDataProperties.h"; sourceTree = "<group>"; };
+		77AFB3221C6E153C00CE6B4C /* Formateur+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Formateur+CoreDataProperties.m"; sourceTree = "<group>"; };
+		77AFB3231C6E153C00CE6B4C /* Formateur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formateur.h; sourceTree = "<group>"; };
+		77AFB3241C6E153C00CE6B4C /* Formateur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Formateur.m; sourceTree = "<group>"; };
+		77AFB3251C6E153C00CE6B4C /* Intervenant+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Intervenant+CoreDataProperties.h"; sourceTree = "<group>"; };
+		77AFB3261C6E153C00CE6B4C /* Intervenant+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Intervenant+CoreDataProperties.m"; sourceTree = "<group>"; };
+		77AFB3271C6E153C00CE6B4C /* Intervenant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Intervenant.h; sourceTree = "<group>"; };
+		77AFB3281C6E153C00CE6B4C /* Intervenant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intervenant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +74,26 @@
 		77AFB2EF1C6E0DB100CE6B4C = {
 			isa = PBXGroup;
 			children = (
+				77AFB3151C6E153C00CE6B4C /* Salle+CoreDataProperties.h */,
+				77AFB3161C6E153C00CE6B4C /* Salle+CoreDataProperties.m */,
+				77AFB3171C6E153C00CE6B4C /* Salle.h */,
+				77AFB3181C6E153C00CE6B4C /* Salle.m */,
+				77AFB3191C6E153C00CE6B4C /* Etudiant+CoreDataProperties.h */,
+				77AFB31A1C6E153C00CE6B4C /* Etudiant+CoreDataProperties.m */,
+				77AFB31B1C6E153C00CE6B4C /* Etudiant.h */,
+				77AFB31C1C6E153C00CE6B4C /* Etudiant.m */,
+				77AFB31D1C6E153C00CE6B4C /* Personne+CoreDataProperties.h */,
+				77AFB31E1C6E153C00CE6B4C /* Personne+CoreDataProperties.m */,
+				77AFB31F1C6E153C00CE6B4C /* Personne.h */,
+				77AFB3201C6E153C00CE6B4C /* Personne.m */,
+				77AFB3211C6E153C00CE6B4C /* Formateur+CoreDataProperties.h */,
+				77AFB3221C6E153C00CE6B4C /* Formateur+CoreDataProperties.m */,
+				77AFB3231C6E153C00CE6B4C /* Formateur.h */,
+				77AFB3241C6E153C00CE6B4C /* Formateur.m */,
+				77AFB3251C6E153C00CE6B4C /* Intervenant+CoreDataProperties.h */,
+				77AFB3261C6E153C00CE6B4C /* Intervenant+CoreDataProperties.m */,
+				77AFB3271C6E153C00CE6B4C /* Intervenant.h */,
+				77AFB3281C6E153C00CE6B4C /* Intervenant.m */,
 				77AFB2FA1C6E0DB100CE6B4C /* Core Data Project */,
 				77AFB2F91C6E0DB100CE6B4C /* Products */,
 			);
@@ -152,9 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AFB32D1C6E153C00CE6B4C /* Personne+CoreDataProperties.m in Sources */,
 				77AFB3031C6E0DB100CE6B4C /* ViewController.m in Sources */,
 				77AFB3001C6E0DB100CE6B4C /* AppDelegate.m in Sources */,
+				77AFB3301C6E153C00CE6B4C /* Formateur.m in Sources */,
+				77AFB32E1C6E153C00CE6B4C /* Personne.m in Sources */,
+				77AFB32F1C6E153C00CE6B4C /* Formateur+CoreDataProperties.m in Sources */,
 				77AFB3091C6E0DB100CE6B4C /* Core_Data_Project.xcdatamodeld in Sources */,
+				77AFB3311C6E153C00CE6B4C /* Intervenant+CoreDataProperties.m in Sources */,
+				77AFB3321C6E153C00CE6B4C /* Intervenant.m in Sources */,
+				77AFB32C1C6E153C00CE6B4C /* Etudiant.m in Sources */,
+				77AFB32A1C6E153C00CE6B4C /* Salle.m in Sources */,
+				77AFB32B1C6E153C00CE6B4C /* Etudiant+CoreDataProperties.m in Sources */,
+				77AFB3291C6E153C00CE6B4C /* Salle+CoreDataProperties.m in Sources */,
 				77AFB2FD1C6E0DB100CE6B4C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
